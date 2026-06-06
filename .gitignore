@@ -1,0 +1,42 @@
+# dependencies
+**/node_modules/
+**/.pnp
+.pnp.*
+**/.yarn/*
+
+# testing
+**/coverage
+
+# Next.js
+**/.next/
+**/out/
+
+# production
+**/build
+**/dist
+
+# SQLite Databases
+**/*.sqlite
+**/*.sqlite3
+**/*.db
+**/*.db-journal
+**/*.db-wal
+**/*.db-shm
+
+# Environment variables
+**/.env
+**/.env.local
+**/.env.production
+**/.env.development
+**/.env.test
+
+# IDEs & System files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
